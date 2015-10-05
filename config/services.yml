@@ -1,0 +1,12 @@
+services:
+    irusel.hidetopicbuttons.listener:
+        class: iRusel\HideTopicButtons\event\listener
+        arguments:
+            - @config
+            - @template
+            - @auth
+            - @user
+            - @dbal.conn
+            - @service_container			
+        tags:
+            - { name: event.listener }

@@ -1,0 +1,32 @@
+{
+    "name": "iRusel/HideTopicButtons",
+    "type": "phpbb-extension",
+    "description": "Скрывает кнопки в теме от гостей.",
+    "homepage": "https://github.com/iRusel/phpBB-HideTopicButtons",
+    "version": "1.0.0",
+    "time": "2015-10-4",
+    "keywords": ["phpbb", "extension", "topic"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "iRusel",
+            "email": "irusel@yandex.ru",
+            "homepage": "https://github.com/iRusel/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "HideTopicButtons",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*@dev"
+        },
+        "version-check": {
+            "host": "irusel.github.io",
+            "directory": "/platform/phpBB/version/",
+            "filename": "HideTopicButtons.json"
+        } 
+    }
+}
