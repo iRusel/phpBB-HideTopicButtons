@@ -28,7 +28,7 @@
         },
         "version-check": {
             "host": "irusel.github.io",
-            "directory": "/platform/phpBB/version/",
+            "directory": "/platform/phpBB/versions/",
             "filename": "HideTopicButtons.json"
         } 
     }
